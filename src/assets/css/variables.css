@@ -1,0 +1,24 @@
+/*
+  COLORS
+*/
+:root {
+  --main-blue: #000259;
+  --main-white: #FFFFFF;
+  --main-green: #00c49A;
+  --main-red: #A60067;
+  --main-gray: #c4c4c4c4;
+  --main-purple: #999ABD;
+
+/*
+  BORDERS
+*/
+  --first-border: 10px;
+  --second-border: 30px;
+
+/*
+  FONT SIZES
+*/
+  --text-1: 36px;
+  --text-2: 18px;
+  --text-3: 16px;
+}
