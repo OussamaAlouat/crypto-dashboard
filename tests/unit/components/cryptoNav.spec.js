@@ -9,7 +9,7 @@ describe('CryptoHeader.vue', () => {
       propsData: { title },
     });
 
-    expect(wrapper).toBeTruthy();
+    expect(wrapper.isVueInstance()).toBeTruthy();
     expect(wrapper.text()).toBe(title);
     expect(wrapper.is(CryptoNav)).toBe(true);
   });
