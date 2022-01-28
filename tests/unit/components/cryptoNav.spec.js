@@ -1,21 +1,21 @@
 import { shallowMount } from '@vue/test-utils';
-import CryptoHeader from '@/components/CryptoHeader.vue';
+import CryptoNav from '@/components/CryptoNav.vue';
 
 
 describe('CryptoHeader.vue', () => {
   it('The component render', () => {
     const title = 'Hi Oussama'
-    const wrapper = shallowMount(CryptoHeader, {
+    const wrapper = shallowMount(CryptoNav, {
       propsData: { title },
     });
 
     expect(wrapper).toBeTruthy();
     expect(wrapper.text()).toBe(title);
-    expect(wrapper.is(CryptoHeader)).toBe(true);
+    expect(wrapper.is(CryptoNav)).toBe(true);
   });
 
   it('When no pass the prop, there are an error', () => {
-    const wrapper = shallowMount(CryptoHeader, {
+    const wrapper = shallowMount(CryptoNav, {
     });
 
     expect(wrapper.props().title).toBeUndefined();
