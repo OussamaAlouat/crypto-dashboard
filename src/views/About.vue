@@ -1,12 +1,13 @@
 <template>
-  <crypto-card />
+  <crypto-list />
 </template>
 
 <script>
-import CryptoCard from '../components/CryptoCard.vue'
+import CryptoList from '../components/CryptoList.vue';
+
 export default {
-  components: { CryptoCard },
-}
+  components: { CryptoList },
+};
 </script>
 
 <style>
