@@ -6,6 +6,7 @@
         :sku="crypto.sku"
         :stock="crypto.stock"
         :variant="crypto.variant"
+        style="padding-bottom: 16px"
       ></crypto-card>
     </div>
   </div>
